@@ -10,7 +10,7 @@
 # =========================
 # file: app.py
 # =========================
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
@@ -128,6 +128,9 @@ def home():
         success_message=success_message,
         form_data=form_data,
     )
+@app.route("/game")
+def game():
+    return redirect(url_for("static", filename="game/index.html"))
 
 if __name__ == "__main__":
     app.run(debug=True)
