@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ story.project.title }}</title>
+    <meta name="description" content="{{ story.project.subtitle }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="layout">
+        <aside class="sidebar">
+            <header class="hero">
+                <p class="eyebrow">{{ story.project.eyebrow }}</p>
+                <h1>{{ story.project.title }}</h1>
+                <p class="subtitle">{{ story.project.subtitle }}</p>
+
+                <div class="project-meta">
+                    <span>{{ story.project.author }}</span>
+                    <span>{{ story.project.date_range }}</span>
+                </div>
+
+                <p class="intro">{{ story.project.intro }}</p>
+<div class="panel-link">
+    {% if story.project.links %}
+        {% for link in story.project.links %}
+            <p>
+                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+                    {{ link.title }}
+                </a>
+            </p>
+        {% endfor %}
+    {% endif %}
+</div>            </header>
+
+            <section class="narrative-panel">
+                <div class="panel-header">
+                    <h2 id="panel-title">{{ story.chapters[0].title if story.chapters else "Story" }}</h2>
+                    <p id="panel-time" class="panel-time">{{ story.chapters[0].year if story.chapters else "" }}</p>
+                </div>
+                <p id="panel-summary" class="panel-summary">
+                    {{ story.chapters[0].summary if story.chapters else "" }}
+                </p>
+               <div id="panel-media" class="panel-media">
+    {% if story.chapters and story.chapters[0].media %}
+        {% if story.chapters[0].media_type == "video" %}
+            <video controls preload="metadata" style="width: 100%; border-radius: 14px; max-height: 320px;">
+                <source src="{{ story.chapters[0].media }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        {% else %}
+            <img src="{{ story.chapters[0].media }}" alt="{{ story.chapters[0].title }}">
+        {% endif %}
+    {% endif %}
+</div>
+<div id="panel-link" class="panel-link">
+    {% if story.chapters and story.chapters[0].link_url %}
+        <p>
+            <a href="{{ story.chapters[0].link_url }}" target="_blank" rel="noopener noreferrer">
+                {{ story.chapters[0].link_title if story.chapters[0].link_title else "Open link" }}
+            </a>
+        </p>
+    {% endif %}
+</div>
+                <div id="panel-body" class="panel-body">
+                    {% if story.chapters %}
+                        {% for paragraph in story.chapters[0].body %}
+                            <p>{{ paragraph }}</p>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </section>
+
+            <section class="chapter-list">
+                <div class="section-heading">
+                    <h3>Story stops</h3>
+                    <p>Click a chapter or marker.</p>
+                </div>
+
+                <div id="chapter-cards" class="cards"></div>
+            </section>
+        </aside>
+
+        <section class="map-shell">
+            <div class="map-toolbar">
+                <button id="play-route" class="btn" type="button">Play journey</button>
+                <button id="fit-route" class="btn btn-secondary" type="button">Fit all points</button>
+            </div>
+            <div id="map"></div>
+            <div class="map-credit">
+                Base map: OpenStreetMap
+            </div>
+        </section>
+    </main>
+
+    <script>
+        window.STORY_DATA = {{ story | tojson }};
+    </script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

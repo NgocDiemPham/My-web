@@ -1,0 +1,172 @@
+{
+ "project": {
+  "eyebrow": "Interactive Story Map",
+  "title": "Bus tour around Hanoi city",
+  "subtitle": "A Flask story map for places, journeys, photos, and narrative chapters.",
+  "author": "Developed by Phạm Ngọc Diễm",
+  "date_range": "Designed by Ngô Gia Khánh",
+  "intro": "This is a mini project for our Digital Humanities course, through which we aim to preserve cultural values, protect historical heritage, and celebrate the unique beauty of Vietnamese identity.",
+  "links": [
+    {
+      "title": "Our exhibition through StoryMapJS",
+      "url": "https://youtu.be/9sghAtktJ7o?si=f9NFH4jR1xfHtCl3"
+    },
+    {
+      "title": "Our exhibition through Juxtapose",
+      "url": "https://youtu.be/9sghAtktJ7o?si=f9NFH4jR1xfHtCl3"
+    },
+    {
+      "title": "Our rationales here",
+      "url": "https://docs.google.com/document/d/1N3kvtqPVBKM-FwJN6PABybJq4OXpUPlSbTs02tv2KtI/edit?tab=t.0"
+    },
+{
+      "title": "Our struggles here",
+      "url": "https://docs.google.com/document/d/1N3kvtqPVBKM-FwJN6PABybJq4OXpUPlSbTs02tv2KtI/edit?tab=t.xqt23zdan9vw"
+    },
+{
+      "title": "Our reflection here",
+      "url": "https://docs.google.com/document/d/1N3kvtqPVBKM-FwJN6PABybJq4OXpUPlSbTs02tv2KtI/edit?tab=t.jz11ke1smfz3"
+    }
+  ]
+},
+  "chapters": [
+    {
+      "order": 1,
+      "title": "Cột cờ Hà Nội",
+      "year": "1805 - 1812",
+      "place": "28A Điện Biên Phủ, Điện Biên, Ba Đình, Hà Nội",
+      "summary": "The Flag Tower of Hanoi (Vietnamese: Cột cờ Hà Nội) is a tower in Hanoi, Vietnam, which is one of the symbols of the city and once a part of the Hanoi Citadel, a World Heritage Site. Its height is 33.4 m (41 m with the flag).",
+      "coordinates": [21.032705754289832, 105.83978212771072],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1XIhRV6L-vqr-8H7jo_ABVRNJIZ--c6sn?usp=sharing",
+      "image": "/static/images/1. Cot co/z7761990978642_cf39c6fdcd3c1fd82fc48ba71d1c948b.jpg"
+    },
+    {
+      "order": 2,
+      "title": "Chùa Quán Thánh",
+      "year": "1010 - 1028",
+      "place": "190 P. Quán Thánh, Ba Đình, Hà Nội",
+      "summary": "Quán Thánh Temple (Vietnamese: Đền Quán Thánh), also known as Trấn Vũ Temple (Sino-Vietnamese: Chân Vũ Quán, chữ Hán: 真武觀), is a Taoist temple in Hanoi, Vietnam. Dated to the 11th century, the temple was dedicated to Xuan Wu, or Trấn Vũ (chữ Hán: 鎮武) in Vietnamese, one of the principal deities in Taoism. As one of the Four Sacred Temples of the capital, Quan Thánh Temple is located near West Lake in a ward of the same name: Quán Thánh Ward; and is one of the leading tourist attractions in Hanoi. The temple's name means Place (alternatively shop/restaurant) of the Gods. The name of the long street running by the temple is also called 'Quán Thánh' street.",
+      
+      "coordinates": [21.04272026435644, 105.84182286406914],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1qpbBNFEw81kzmAe1zEnmku9XvVChQ2OU?usp=drive_link",
+
+     "image": "/static/images/2. Quan Thanh/z7761992478145_597d2ead893c2a3b9edfe78eba6fc265.jpg"
+    },
+    {
+      "order": 3,
+      "title": "Chùa Trấn Quốc",
+      "year": "544 - 548",
+      "place": "Thanh Niên, Yên Phụ, Tây Hồ, Hà Nội, Vietnam",
+      "summary": "Trấn Quốc Pagoda (Vietnamese: chùa Trấn Quốc; Sino-Vietnamese: Trấn Quốc tự, chữ Hán: 鎮國寺), the oldest Buddhist temple in Hanoi, is located on a small island near the southeastern shore of Hanoi's West Lake, Vietnam.",
+      "coordinates": [21.048900016700795, 105.83690448547416],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1j42vBoDlhuJwdLWPveaqg7gEjpuTdVmj?usp=drive_link",
+      "image": "/static/images/3. Chua/z7761995262357_923b2a927a3a85b3efbfcdb3c15642e3.jpg"
+    },
+{
+      "order": 4,
+      "title": "Lăng Bác",
+      "year": "1973",
+      "place": "1 Hùng Vương, Điện Biên, Ba Đình, Hà Nội, Vietnam",
+      "summary": "The President Ho Chi Minh Mausoleum (Vietnamese: Lăng Chủ tịch Hồ Chí Minh, Lăng Bác) is a mausoleum which serves as the resting place of Vietnamese revolutionary leader and President Ho Chi Minh in Hanoi, Vietnam.It is a large building located in the center of Ba Đình Square, where Ho, Chairman of the Workers' Party of Vietnam from 1951 until his death in 1969, read the Declaration of Independence on September 2, 1945, establishing the Democratic Republic of Vietnam. It is open to the public every morning except Monday and Friday.",
+      
+      "coordinates": [21.037057355861705, 105.83462172498456],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1_HxrZsHuXv9YasrYk2MxiDYjX-A678Re?usp=drive_link",
+      "image": "/static/images/4. Lang Bac/z7761996862818_44df31d0e38821ed09c6c7ef77950fac.jpg"
+    },
+{
+      "order": 5,
+      "title": "Văn Miếu Quốc Tử Giám",
+      "year": "1070",
+      "place": "58 Quốc Tử Giám, Văn Miếu, Đống Đa, Hà Nội, Vietnam",
+      "summary": "Văn Miếu (Vietnamese: Văn Miếu, chữ Hán: 文廟), literally translated as Temple of Literature, is a temple dedicated to Confucius in Hanoi, northern Vietnam. The temple was founded and first built in 1070 at the time of Emperor Lý Thánh Tông, and it hosted the Imperial Academy (Quốc Tử Giám, 國子監), Vietnam's first national university, from 1076 to 1779. In 1803, The academy was moved to the new capital of Nguyen dynasty in Hue.",
+      
+      "coordinates": [21.02833787426267, 105.83571662235471],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1IunWiTO_vB2lB2X_nUichm4Bv7vTIC2g?usp=drive_link",
+      "image": "/static/images/5. Van Mieu/z7762004114690_bb7640ebfc904d7eb8d765e8ac3f6c72.jpg"
+    },
+
+{
+      "order": 6,
+      "title": "Nhà tù Hỏa Lò",
+      "year": "1896 - 1901",
+      "place": "1 P. Hoả Lò, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+      "summary": "Hỏa Lò Prison (Vietnamese: Nhà tù Hỏa Lò; French: Prison Hỏa Lò) was a prison in Hanoi originally used by the French colonists in Indochina for political prisoners, and later by North Vietnam for U.S. prisoners of war during the Vietnam War. During this later period, it was known to American POWs as the Hanoi Hilton. Following Operation Homecoming, the prison was used to incarcerate Vietnamese dissidents until its demolition between 1993 and 1994. Its gatehouse remains a museum.",
+      "coordinates": [21.025529865985778, 105.84656277810218],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1U-Ci59a6HgwXf5g_8S9xbyBjC3vy_0MT?usp=drive_link",
+      "image": "/static/images/6. Nha tu Hoa Lo/z7762004221559_f93dfa5a622c0eb6a16574012c36f4e7.jpg"
+    },
+{
+      "order": 7,
+      "title": "Phố sách Hà Nội",
+      "year": "2017",
+      "place": "P. 19 Tháng 12, Trần Hưng Đạo, Cửa Nam, Hà Nội",
+      "summary": "Hanoi Book Street officially opened on May 1, 2017, making it the first book street in Hanoi. The book street is supported by 16 leading Vietnamese publishers. All book stalls are designed and built in a modern, friendly style, making them easily accessible to everyone.",
+      "coordinates": [21.025249639802126, 105.84796241819612],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1VvNNwQCpCdgmFhiY1civAnPMpddjgatQ?usp=drive_link",
+      "image": "/static/images/7. Pho sach/z7762005494122_00f96b84a519b6c68300391746957d7f.jpg"
+    },
+{
+      "order": 8,
+      "title": "Bảo tàng phụ nữ Việt Nam",
+      "year": "1987",
+      "place": "Lý Thường Kiệt, Trần Hưng Đạo, Cửa Nam, Hà Nội",
+      "summary": "The Vietnamese Women's Museum (Vietnamese: Bảo tàng Phụ nữ Việt Nam), is a museum established and operated by the Vietnam Women’s Union, officially opened its doors to public in 1995. The four-storey building is in Hanoi, Ly Thuong Kiet Street, situated along the central Hoan Kiem Lake and old quarter.",
+      "coordinates": [21.023633605912984, 105.85153107315676],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/10fHuxnZciuaLPctq96sC9RJQvJO-P_S4?usp=drive_link",
+      "image": "/static/images/8. Bao tang Phu nu/z7762007270779_353d65d1cedea1a8f317b05b6d8e0357.jpg"
+    },
+{
+      "order": 9,
+      "title": "Nhà hát lớn Hà Nội",
+      "year": "1999",
+      "place": "Tràng Tiền, Phan Chu Trinh, Cửa Nam, Hà Nội",
+      "summary": "The Hanoi Opera House (French: Opéra de Hanoï), or the Grand Opera House (Vietnamese: Nhà hát lớn Hà Nội, French: Grand Opéra) is an opera house in central Hanoi, Vietnam. Built by the French colonial administration between 1901 and 1911, it is one of three opera houses built during the colonial period in French Indochina, alongside Haiphong Opera House and Municipal Theatre in Ho Chi Minh City.",
+      "coordinates": [21.024444145587754, 105.85763735736002],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/16U9edPYFQfwHg1Z0SGfEdIOFv78tkzHq?usp=drive_link",
+      "image": "/static/images/9. nha hat lon/z7762007598495_64b404a7ccd8fd33983ded8c9837401b.jpg"
+    },
+{
+      "order": 10,
+      "title": "Nhà xuất bản Văn hóa Dân tộc",
+      "year": "N/A",
+      "place": "61 Lý Thái Tổ, Tràng Tiền, Hoàn Kiếm, Hà Nội",
+      "summary": "Ðông Hồ painting (Vietnamese: Tranh Đông Hồ or Tranh làng Hồ), full name Đông Hồ folk woodcut painting (Tranh khắc gỗ dân gian Đông Hồ) is a line of Vietnamese folk painting originating in Đông Hồ village (Song Hồ commune, Thuận Thành District, Bắc Ninh Province).",
+      "coordinates": [21.0252977164563, 105.85692126108287],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1FM-H7oLT4-3aArHctHSDbx52sL9HLNPc?usp=drive_link",
+      "image": "/static/images/10. Nha xuat ban Van hoa Dan toc/z7762008225046_0078f127380bc7e3ed04aa8ad88f3690.jpg"
+    },
+{
+      "order": 11,
+      "title": "Phố đi bộ Hà Nội",
+      "year": "2004",
+      "place": "Trần Nhân Tông, Nguyễn Du, Hai Bà Trưng, Hà Nội",
+      "summary": "Hoan Kiem Lake Walking Street is a pedestrian area consisting of 16 streets around Hoan Kiem Lake, where vehicle traffic is prohibited.",
+      "coordinates": [21.017549409864635, 105.84425712161956],
+      "zoom": 15,
+      "link_title": "Link for more details here",
+      "link_url": "https://drive.google.com/drive/folders/1HTE6f59Q94LsKOfa6zkPa8-VfOuHgR_L?usp=drive_link",
+      "image": "/static/images/11. Ho guom/z7762009105044_0143adbfb56ed33f2f11f4f97a4419b7.jpg"
+    }
+
+  ]
+}
